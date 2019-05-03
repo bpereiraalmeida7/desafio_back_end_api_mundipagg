@@ -1,0 +1,63 @@
+{
+    "id": "sub_05jkdIfGYPfN26mI",
+    "payment_method": "credit_card",
+    "currency": "BRL",
+    "interval": "month",
+    "interval_count": 3,
+    "billing_type": "prepaid",
+    "boleto_due_days":5,
+    "current_period": {
+        "start_at": "2016-07-19T00:00:00Z",
+        "end_at": "2016-10-19T23:59:59Z"
+    },
+    "next_billing_at": "2016-10-19T00:00:00Z",
+    "installments": 3,
+    "customer": {
+        "id": "cus_017228NmffGbA3d4",
+        "name": "Pedro",
+        "email": "lskywalker@r2d2.com",
+        "delinquent": false,
+        "created_at": "2016-07-12T18:25:40Z",
+        "updated_at": "2016-07-12T18:25:40Z"
+    },
+    "card": {
+        "id": "card_Mome2meGz4PDNQbX",
+        "holder_name": "Pedro",
+        "masked_number": "453246******5322",
+        "exp_month": 3,
+        "exp_year": 17,
+        "expired": false,
+        "status": "active",
+        "created_at": "2016-07-12T18:25:40Z",
+        "update_at": "2016-07-12T18:25:40Z",
+        "billing_address": {
+            "id": "addr_Mome2meGz4PDNQbX",
+            "line_1": "375, Av. General Justo, Centro",
+            "line_2": "8º andar",
+            "zip_code": "20021130",
+            "city": "Rio de Janeiro",
+            "state": "RJ",
+            "country": "BR",
+            "status": "active",
+            "created_at": "2016-07-12T18:25:40Z",
+            "updated_at": "2016-07-12T18:25:40Z"
+        }
+    },
+    "plan": {
+        "id": "plan_21r4CTG0ux77Qv13",
+        "name": "Plano Gold",
+        "url": "/plan_21r4CTG0ux77Qv13/academia/plano-gold",
+        "currency": "BRL",
+        "interval": "day",
+        "minimum_price": 69.90,
+        "interval_count": 3,
+        "billing_type": "prepaid",
+        "installments": 3,
+        "status": "active",
+        "created_at": "2016-07-12T18:25:40Z",
+        "updated_at": "2016-07-12T18:25:40Z",
+        "metadata": {
+            "id": "my_plan_id"
+        }
+    }
+}

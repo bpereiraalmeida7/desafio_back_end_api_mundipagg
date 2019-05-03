@@ -1,0 +1,64 @@
+{
+    "payment_method": "credit_card",
+    "currency": "BRL",
+    "interval": "month",
+    "interval_count": 1,
+    "billing_type": "prepaid",
+    "installments": 3,
+    "gateway_affiliation_id": "C56A4180-65AA-42EC-A945-5FD21DEC0538",
+    "minimum_price": 164.40,
+    "boleto_due_days":5,
+    "customer": {
+        "name": "Luiz",
+        "email": "tonystark@avengers.com"
+    },
+    "card": {
+        "holder_name": "Luiz",
+        "number": "4532464862385322",
+        "exp_month": 1,
+        "exp_year": 26,
+        "cvv": "903",
+        "billing_address": {
+            "line_1": "375, Av. General Justo, Centro",
+            "line_2": "8º andar",
+            "zip_code": "20021130",
+            "city": "Rio de Janeiro",
+            "state": "RJ",
+            "country": "BR"
+        }
+    },
+    "discounts": [
+        {
+            "cycles": 3,
+            "value": 24.50,
+            "discount_type": "percentage"
+        }
+    ],
+    "increments": [
+        {
+            "cycles": 2,
+            "value": 20,
+            "discount_type": "percentage"
+        }
+    ],
+    "items": [
+        {
+            "description": "SanarFlix",
+            "quantity": 1,
+            "pricing_scheme": {
+                "price": 18990
+            }
+        },
+        {
+            "description": "Yellow Book",
+            "quantity": 1,
+            "cycles": 1,
+            "pricing_scheme": {
+                "price": 5990
+            }
+        }
+    ],
+    "metadata": {
+        "id": "my_subscription_id"
+    }
+}

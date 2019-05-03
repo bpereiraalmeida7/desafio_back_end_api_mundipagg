@@ -1,0 +1,52 @@
+{"name": "Mario Santos",
+    "email": "tonystarkk@avengers.com",
+    "code": "MY_CUSTOMER_001",
+    "document": "123456789",
+    "type": "individual",
+    "gender": "male",
+    "address": {
+        "line_1": "375, Av. General Justo, Centro",
+        "line_2": "8º andar",
+        "zip_code": "20021130",
+        "city": "Rio de Janeiro",
+        "state": "RJ",
+        "country": "BR"
+    },
+    "birthdate": "05/03/1984",    
+    "phones": {
+    "home_phone": {
+        "country_code": "55",
+        "area_code": "21",
+        "number": "000000000"
+    },
+    "mobile_phone": {
+        "country_code": "55",
+        "area_code": "21",
+        "number": "000000000"
+    },
+
+    "metadata": {
+    "company": "Avengers"
+    },
+    "number": "5425019448107793",
+    "holder_name": "Tony Stark",
+    "holder_document": "93095135270",
+    "exp_month": 1,
+    "exp_year": 20,
+    "cvv": "351",
+    "brand": "Mastercard",
+    "private_label": false,
+    "billing_address": {
+        "line_1": "375, Av. General Osorio, Centro",
+        "line_2": "7º Andar",
+        "zip_code": "220000111",
+        "city": "Rio de Janeiro",
+        "state": "RJ",
+        "country": "BR"
+    },
+    "options": {
+        "verify_card": true
+    }
+    }
+}
+

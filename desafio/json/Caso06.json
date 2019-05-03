@@ -1,0 +1,75 @@
+{
+    "id": "sub_WeEMlp2FXFMjVq3Q",
+    "code": "8YNU49TD4Z",
+    "start_at": "2018-04-05T00:00:00Z",
+    "interval": "month",
+    "interval_count": 1,
+    "billing_type": "postpaid",
+    "boleto_due_days":5,
+    "current_cycle": {
+        "id": "cycle_6ow0JqhD5sJmMJPl",
+        "start_at": "2018-04-05T00:00:00Z",
+        "end_at": "2018-05-04T23:59:59Z",
+        "billing_at": "2018-04-05T00:00:00Z"
+    },
+    "setup": {
+        "id": "or_0Wd7bYRMSmSYy8qz",
+        "description": "Inscrição",
+        "amount": 9990,
+        "status": "paid"
+    },
+    "next_billing_at": "2018-04-05T00:00:00Z",
+    "payment_method": "boleto",
+    "currency": "BRL",
+    "statement_descriptor": "Spotify",
+    "installments": 1,
+    "status": "canceled",
+    "created_at": "2018-04-05T03:20:16Z",
+    "updated_at": "2018-04-05T12:14:06Z",
+    "canceled_at": "2018-04-05T12:14:06Z",
+    "customer": {
+        "id": "cus_px3yqRSlRsVqawgj",
+        "name": "Ricardo",
+        "email": "ef61ded5-9e60-40c7-89cd-a3b6e70515e8@avengers.com",
+        "delinquent": false,
+        "created_at": "2018-04-05T03:20:15Z",
+        "updated_at": "2018-04-05T03:20:15Z",
+        "phones": {}
+    },
+    "plan": {
+        "id": "plan_dxVldzsgzu9rpe8v",
+        "name": "Premium",
+        "description": "Vá de Premium. E seja feliz!",
+        "url": "/plans/plan_dxVldzsgzu9rpe8v/vodafone-teste/premium",
+        "statement_descriptor": "Spotify",
+        "interval": "month",
+        "interval_count": 1,
+        "billing_type": "postpaid",
+        "payment_methods": [
+            "boleto",
+            "credit_card"
+        ],
+        "installments": [
+            1
+        ],
+        "status": "active",
+        "currency": "BRL",
+        "created_at": "2018-04-04T22:17:16Z",
+        "updated_at": "2018-04-04T22:17:16Z"
+    },
+    "items": [
+        {
+            "id": "si_5LPVYR1c7WuJd06l",
+            "name": "Sanaflix - Premium",
+            "description": "Test - Description",
+            "quantity": 1,
+            "status": "active",
+            "created_at": "2018-04-05T03:20:16Z",
+            "updated_at": "2018-04-05T03:20:16Z",
+            "pricing_scheme": {
+                "price": 1490,
+                "scheme_type": "unit"
+            }
+        }
+    ]
+}

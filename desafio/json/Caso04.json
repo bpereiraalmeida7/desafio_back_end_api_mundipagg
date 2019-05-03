@@ -1,0 +1,17 @@
+{
+    "card": {
+        "number": "4532912167490007",
+        "holder_name": "Marcos",
+        "exp_month": 6,
+        "exp_year": 20,
+        "cvv": "474",
+        "billing_address": {
+            "line_1": "375, Av. General Justo, Centro",
+            "line_2": "8º andar",
+            "zip_code": "20021130",
+            "city": "Rio de Janeiro",
+            "state": "RJ",
+            "country": "BR"
+        }
+    }
+}
